@@ -27,7 +27,7 @@ $getRes->execute();
  
 while($row = $getRes->fetch( PDO::FETCH_ASSOC ))
 {
-echo $row['field1']."<br />";
-echo $row['field2']."<br />";
+echo $row['H_COMNAME']."<br />";
+echo $row['H_ASSET']."<br />";
 }
 ?>
